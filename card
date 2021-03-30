@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+blue="$(tput setaf 4)"
+bold="$(tput bold)"
+cyan="$(tput setaf 6)"
+dim="$(tput dim)"
+green="$(tput setaf 2)"
+magenta="$(tput setaf 5)"
+red="$(tput setaf 1)"
+reset="$(tput sgr0)"
+underline="$(tput smul)"
+yellow="$(tput setaf 3)"
+white="$(tput setaf 7)"
+
+cat <<EOF
+
+${cyan}┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+${cyan}┃                                                       ┃
+${cyan}┃${reset}           	    ${dim}Vasundhara Sharma${reset}                	${cyan}┃
+${cyan}┃                                                       ┃
+${cyan}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+${cyan}┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+${cyan}┃                                                       ┃
+${cyan}┃                                                       ┃
+${cyan}┃${reset}    ${underline}${blue}Email:${reset}     ${yellow}vasundhara.14@gmail.com                 ${cyan}┃
+${cyan}┃${reset}    ${underline}${blue}Web:${reset}       ${yellow}https://vasdesigns.de/                  ${cyan}┃
+${cyan}┃                                                       ┃
+${cyan}┃${reset}    ${underline}${blue}LinkedIn:${reset}  ${green}https://0x0.st/NlWd                     ${cyan}┃
+${cyan}┃${reset}    ${underline}${blue}Behance:${reset}   ${green}https://www.behance.net/vasundhsharma   ${cyan}┃
+${cyan}┃${reset}    ${underline}${blue}GitHub:${reset}    ${green}https://github.com/vasundhasauras       ${cyan}┃
+${cyan}┃${reset}               ${green}https://github.com/lighthaus-theme      ${cyan}┃
+${cyan}┃${reset}    ${underline}${blue}Keybase:${reset}   ${green}https://keybase.io/vas_sharma           ${cyan}┃
+${cyan}┃${reset}    ${underline}${blue}BMC:${reset}       ${green}https://www.buymeacoffee.com/vasoo      ${cyan}┃
+${cyan}┃                                                       ┃
+${cyan}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+EOF
+
